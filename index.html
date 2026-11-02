@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIYA ENTERPRISE | Beauty & Cosmetics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">RIYA <span>ENTERPRISE</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="tagline">YOUR BEAUTY. YOUR STYLE.</p>
+        <h1>Discover Your<br><span>Beauty</span></h1>
+        <p>Explore beauty, skincare and personal care essentials.</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h2>Our Products</h2>
+    <p class="subtitle">Explore our beauty collection</p>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img class="product-img" src="images/libra-face-serum.jpg" alt="Libra Face Serum">
+            <h3>LIBRA FACE SERUM</h3>
+            <p>₹600</p>
+            <button onclick="orderProduct('LIBRA FACE SERUM',600)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/libra-body-lotion.jpg" alt="Libra Body Lotion">
+            <h3>LIBRA BODY LOTION</h3>
+            <p>₹230</p>
+            <button onclick="orderProduct('LIBRA BODY LOTION',230)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/libra-face-wash.jpg" alt="Libra Face Wash">
+            <h3>LIBRA FACE WASH</h3>
+            <p>₹230</p>
+            <button onclick="orderProduct('LIBRA FACE WASH',230)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/vorca-shampoo.jpg" alt="Vorca Shampoo">
+            <h3>VORCA SHAMPOO</h3>
+            <p>₹250</p>
+            <button onclick="orderProduct('VORCA SHAMPOO',250)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/libra-body-wash.jpg" alt="Libra Body Wash">
+            <h3>LIBRA BODY WASH (Pack of 1)</h3>
+            <p>₹250</p>
+            <button onclick="orderProduct('LIBRA BODY WASH (Pack of 1)',250)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/libra-soap.jpg" alt="Libra Soap">
+            <h3>LIBRA SOAP (Pack of 1)</h3>
+            <p>₹85</p>
+            <button onclick="orderProduct('LIBRA SOAP (Pack of 1)',85)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/fraizy-hair-oil.jpg" alt="Fraizy Hair Vitalizer Oil">
+            <h3>FRAIZY ULTIMATE HAIR VITALIZER OIL</h3>
+            <p>₹220</p>
+            <button onclick="orderProduct('FRAIZY ULTIMATE HAIR VITALIZER OIL',220)">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img class="product-img" src="images/fraizy-acne-face-wash.jpg" alt="Fraizy Acne Cleaner Face Wash">
+            <h3>FRAIZY ULTIMATE ACNE CLEANER FACE WASH</h3>
+            <p>₹220</p>
+            <button onclick="orderProduct('FRAIZY ULTIMATE ACNE CLEANER FACE WASH',220)">Order Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About RIYA ENTERPRISE</h2>
+    <p>Your destination for beauty and personal care products.</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Order your favourite products through WhatsApp.</p>
+    <a href="https://wa.me/919724039849" class="btn">WhatsApp Us</a>
+</section>
+
+<footer>
+    <p>© 2026 RIYA ENTERPRISE | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
